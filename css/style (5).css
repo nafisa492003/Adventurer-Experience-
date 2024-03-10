@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+.container-fluid{
+    width: 1410px;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #29313D;
+}
+.nav-item{
+    margin-right: 48px;
+}
+.down{
+    margin-left: 8px;
+}
+.but{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    color: #FFFFFF;
+    background-color: #FF5538;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 25px;
+}
+.container{
+    width: 1410px;
+    margin: 0 auto;
+}
+#banner{
+    background-color: rgba(255, 220, 216,50%);
+    padding-top: 293px;
+    padding-bottom: 297px;
+    overflow-x: hidden;
+}
+nav{
+  position: absolute !important;
+ margin-left: 70px;
+ z-index: 999;
+}
+#banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    width: 771px;
+    text-transform: capitalize;
+    margin-left: 260px;
+}
+#banner p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    width: 554px;
+    margin-left: 360px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+#banner .con{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    padding: 14px 23px;
+    border: none;
+    border-radius: 25px;
+    background-color: #FF5538;
+    color: #FFFFFF;
+    margin-left: 500px;
+}
+#banner .sho{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    padding: 14px 23px;
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background-color: rgba(255, 220, 216,50%);
+    border-radius: 25px;
+    margin-left: 8px;
+}
+#banner .group{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -74px;
+}
+#banner .ring{
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    border: 2px solid #FFABBA;
+    position: relative;
+    left: 774px;
+    top: -165px;
+
+}
+#banner .ring .ring-p{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #FFABBA;
+   background-color: #FFABBA;
+   position: absolute;
+    left: 0;
+    top: 82px;
+}
+#banner .ss{
+    position: absolute;
+    top: 239px;
+    right: 961px;
+}
+#banner .ll{
+    position: absolute;
+    top: 115px;
+    left: 114px;
+}
+#banner .crr{
+    position: absolute;
+    top: 278px;
+    right: 240px;
+}
+#banner .ff{
+    position: absolute;
+    right: 0;
+    top: 390px;
+}
+#banner .round{
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+    border: 2px solid #C087EE;
+    position: absolute;
+    top: 128px;
+    right: -60px;
+  
+}
+#banner .roll{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #FFDCD8;
+    position: absolute;
+    left: 63px;
+    top: 645px;
+}
+#banner .el{
+    position: absolute;
+    bottom: -530px;
+    left: 0;
+    left: -71px;
+}

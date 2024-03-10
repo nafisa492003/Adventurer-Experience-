@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Open+Sans&family=Yellowtail&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* ============================== nav start======================== */
+nav{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+nav img{
+    width: 225px;
+    height: 67px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 43px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+nav ul li a .down{
+    font-size: 24px;
+    margin-left: 6px;
+    color: #FFFFFF;
+}
+nav ul li a:hover{
+    color: #FF960A;
+}
+nav button{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF960A;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/* ============================== nav end ======================== */
+/* ============================== banner start ======================== */
+#banner{
+    background-image: url(/images/banner\ p.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 243px;
+    padding-bottom: 243px;
+}
+#banner .head{
+    width: 833px;
+    margin-left: 300px;
+}
+#banner .head h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+#banner .head .one{
+    margin-left: 188px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF960A;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#banner .head .two{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+svg{
+    width: 1440.087px;
+    transform: translateY(-45px);
+}
+/* ============================== banner end ======================== */
+/* ============================== part 2 start ======================== */
+#join .join-left h1{
+    font-size: 54px;
+    font-weight: 700;
+    width: 613px;
+    margin-top: 60px;
+    margin-bottom: 33px;
+}
+#join .join-left p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    margin-bottom: 8px;
+}
+#join .join-left ul li{
+list-style: none;
+font-size: 18px;
+font-weight: 400;
+}
+#join .join-left ul li .circle{
+    margin-right: 9px;
+    color: #C4C4C4;
+}
+#join .join-right{
+    margin-top: 40px;
+} 
+#join .join-right .flex-img {
+display: flex;
+gap: 24px;
+}
+#join .join-right .flex-img .small{
+    width: 300px;
+    height: 520px;
+    margin-top: 50px;
+}
+#join{
+    border-top: 4px solid rgb(67, 62, 62);
+} 
+#join .plus{
+    display: flex;
+    gap: 64px;
+    margin-top: 60px;
+    margin-bottom: 34px;
+}
+#join .plus .on{
+    width: 283.453px;
+    text-align: center;
+    background: url(/images/stat-bg\ 2\ 1.png),#FFF4E5 50% / cover ;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    padding-bottom: 45px;
+}
+#join .plus .on h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+#join .plus .two{
+    width: 283.453px;
+    text-align: center;
+    background: url(/images/stat-bg\ 2\ 1.png),#E7FDE9 50% / cover ;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    padding-bottom: 45px;
+}
+#join .plus .two h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+#join .plus .thr{
+    width: 283.453px;
+    text-align: center;
+    background: url(/images/stat-bg\ 2\ 1.png),#F2F2FD 50% / cover ;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    padding-bottom: 45px;
+}
+#join .plus .thr h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+#join .plus .four{
+    width: 283.453px;
+    text-align: center;
+    background: url(/images/stat-bg\ 2\ 1.png),#FDF1F5 50% / cover ;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    padding-bottom: 45px;
+}
+#join .plus .four h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+/* ============================== part 2 end ======================== */
+/* ============================== part 3 start ======================== */
+#Extreme{
+    background-color: #0C3543;
+}
+#Extreme .flex-text{
+    display: flex;
+    gap: 93px;
+}
+#Extreme .text-left p{
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FF960A;
+    margin-top: 114px;
+}
+#Extreme .text-left h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 404px;
+}
+#Extreme .text-right p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 650px;
+    margin-top: 163px;
+    margin-bottom: 173px;
+}
+#Extreme .sports{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#Extreme .s-one{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-one img{
+    width: 400px;
+}
+#Extreme .s-one h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-one h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#Extreme .s-two{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-two img{
+    width: 400px;
+}
+#Extreme .s-two h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-two h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#Extreme .s-three{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-three img{
+    width: 400px;
+}
+#Extreme .s-three h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-three h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#Extreme .s-four{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-four img{
+    width: 400px;
+}
+#Extreme .s-four h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-four h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#Extreme .s-five{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-five img{
+    width: 400px;
+}
+#Extreme .s-five h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-five h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#Extreme .s-six{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0F4152;
+    margin-bottom: 52px;
+}
+#Extreme .s-six img{
+    width: 400px;
+}
+#Extreme .s-six h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+#Extreme .s-six h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+/* ============================== part 3 end ======================== */
+/* ============================== part 4 start ======================== */
+#logo{
+    background: url(/images/bg-sports-1\ 1.png), #0C3543 50% / cover no-repeat;
+    padding-bottom: 20px;
+}
+#logo h1{
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#vi{
+    width: 1440.087px;
+    transform: translateY(-45px);
+}
+#last{
+    background-color: #FF960A;
+    transform: translateY(-55px);
+}
+#last img{
+    margin-top: 95px;
+    margin-left: 621px;
+    margin-bottom: 27px;
+}
+#last h1{
+    font-size: 54px;
+    font-weight: 700;
+    width: 1286px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+#last h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+#last .jo{
+    margin-left: 513px;
+    width: 200px;
+    height: 62px;
+    border-radius: 10px;
+background: #0C3543;
+color: #FFF;
+text-align: center;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#last .ri{
+    width: 200px;
+    height: 62px;
+    border-radius: 10px;
+border: 1px solid #FFF;
+background: #FF9600;
+color: #FFF;
+margin-left: 10px;
+margin-bottom: 146px;
+}
+#last .ri .right{
+    margin-right: 10px;
+    font-size: 24px;
+}
+/* ============================== part 4 end ======================== */
